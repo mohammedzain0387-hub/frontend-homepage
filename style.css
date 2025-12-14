@@ -1,0 +1,213 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 90vh;
+    width: 100vw;
+    background-image: url("https://cdn.thefabricator.com/a/consolidating-the-curiously-fragmented-business-of-precision-metal-fabrication-1669743174.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.7;
+
+
+}
+
+/* nav bar */
+.navbar-container {
+    display: flex;
+    gap: 700px;
+
+}
+
+.navbar-container a {
+    text-decoration: none;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+}
+
+
+.navbar {
+    display: flex;
+    gap: 10px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.logo {
+    margin-left: 10px;
+
+}
+
+.logo li a {
+    text-decoration: none;
+    list-style: none;
+}
+
+.logo li {
+    list-style: none;
+
+}
+
+img {
+    position: relative;
+    top: -45px;
+    left: 0px;
+    border-radius: 50px;
+}
+
+/* section */
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: rgb(247, 245, 245);
+}
+
+h3 {
+    color: orange;
+    text-transform: capitalize;
+    margin-top: -20px;
+}
+
+.p1 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+.bt {
+    margin: -22px 20px;
+    padding: 13px;
+    width: 161px;
+}
+
+.btn1 {
+    background-color: rgb(50, 50, 123);
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50vh;
+    margin-top: 125px;
+}
+
+.section2 h1 {
+    margin-bottom: 0px;
+}
+
+.section2 p {
+    font-size: 1.2rem;
+}
+
+.our {
+    color: darkblue;
+
+}
+
+.service {
+    color: orange;
+}
+
+/* last section */
+.last-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: -112px;
+}
+
+.box {
+    background: #f9f9f9;
+    padding: 30px 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: -5px 0 10px -5px rgba(0, 0, 0, 0.3),
+        5px 0 10px -5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.box i {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 15px;
+
+
+}
+
+.box h3 {
+    margin: 10px 0;
+    color: #222;
+}
+
+.box p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.box ul {
+
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    margin-left: 100px;
+
+}
+
+.box ul li {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+}
+
